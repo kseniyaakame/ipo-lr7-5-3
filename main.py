@@ -49,10 +49,10 @@ while True:
         print("Запись добавлена")
     elif num == 4:
         count += 1
-        pole = input("Введите поле для удаления: ")
+        field = input("Введите поле для удаления: ")
         found = False
         for city in text:
-            if city['id'] == pole:
+            if city['id'] == field:
                 text.remove(city)
                 found = True
                 break
